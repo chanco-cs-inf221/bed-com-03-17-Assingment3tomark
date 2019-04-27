@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>From Feet to other measures </title>
+    <script src="MeterAndLengthJscript.js"> </script>
+    <link rel="stylesheet" href="conveterPresentation.css"> 
+
+<body>
+      <!-- Link to go back home -->
+    <a href="home.html"> HOME</a>
+    <h2>COVERT FROM METERS AND FEET TO OTHER MEASURES </h2>
+    <div class="grid">
+      <div>
+          <h2>LENGTH CONVERTER</h2>
+          <h3> FROM METERS TO OTHER MESURES  </h3>
+          <p>Type a value in the Meters field to convert the value to Feet:</p>
+          <!-- This is for meters to ather length -->
+          <!-- to make this length converter uniquely identified by its script numbers are added at the end like 10 20 and the like -->
+          <p>
+            <label id="lb">Meters<label></label>
+            <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter10(this.value)" onchange="LengthConverter10(this.value)">
+          </p>
+          <h4>Feet: <span id="outputFeet"></span></h4>
+          
+          
+          
+          <p>Type a value in the Meters field to convert the value to Inches:</p>
+          
+          <p>
+            <label class="lb">Meters</label>
+            <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter20(this.value)" onchange="LengthConverter20(this.value)">
+          </p>
+          <h4>Inches: <span id="outputInches"></span></h4>
+          
+          <p>Type a value in the Meters field to convert the value to cm:</p>
+          
+          <p>
+            <label>Meters</label>
+            <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter30(this.value)" onchange="LengthConverter30(this.value)">
+          </p>
+          <h4>cm: <span id="outputcm"></span></h4>
+          
+          
+          <p>Type a value in the Meters field to convert the value to Yards:</p>
+          
+          <p>
+            <label>Meters</label>
+            <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter40(this.value)" onchange="LengthConverter40(this.value)">
+          </p>
+          <h4>Yards: <span id="outputYards"></span></h4>
+          
+          
+          <p>Type a value in the Meters field to convert the value to Kilometers:</p>
+          
+          <p>
+            <label>Meters</label>
+            <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter50(this.value)" onchange="LengthConverter50(this.value)">
+          </p>
+          <h4>Kilometers: <span id="outputKilometers"></span></h4>
+          
+          <p>Type a value in the Meters field to convert the value to Miles:</p>
+          
+          <p>
+            <label>Meters</label>
+            <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter60(this.value)" onchange="LengthConverter60(this.value)">
+          </p>
+          <h4>Miles: <span id="outputMiles"></span></h4>
+        </div>
+        
+
+        <!-- This is for Feet to other Measures -->
+        <div>
+          <h2>LENGTH CONVERTER</h2>
+          <h3> FROM FEET TO OTHER MESURES  </h3>
+
+          <p>Type a value in the Feet field to convert the value to Yards:</p>
+
+          <p>
+          <label>Feet</label>
+          <input id="inputFeet" type="number" placeholder="Feet" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+          </p>
+          <h4>Yards: <span id="outputYards1"></span></h4>
+          <p>Type a value in the Feet field to convert the value to cm:</p>
+
+          <p>
+ 
+          <label>Feet</label>
+         <input id="inputFeet" type="number" placeholder="Feet" oninput="LengthConverter3(this.value)" onchange="LengthConverter3(this.value)">
+          </p>
+          <h4>Miles: <span id="outputMiles1"></span></h4>
+
+          <p>Type a value in the Feet field to convert the value to Inches:</p>
+
+          <p>
+          <label>Feet</label>
+          <input id="inputFeet" type="number" placeholder="Feet" oninput="LengthConverter4(this.value)" onchange="LengthConverter4(this.value)">
+           </p>
+          <h4>Inches: <span id="outputInches1"></span></h4>
+
+         <p>Type a value in the Feet field to convert the value to Meters:</p>
+
+         <p>
+          <label>Feet</label>
+          <input id="inputFeet" type="number" placeholder="Feet" oninput="LengthConverter5(this.value)" onchange="LengthConverter5(this.value)">
+          </p>
+          <h4>Meters: <span id="outputMeters1"></span></h4>
+        </div>
+      </div>
+    </body>
+</html>
